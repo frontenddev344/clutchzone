@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" type="image/icon" href="./assets/images/favicon.ico">
+    <title>Homepage</title>
+    <style>
+        /* TP CSS Start */
+
+
+        .tp-cards-section {
+            padding: 30px 0;
+        }
+
+        .tp-cards {
+            background-color: #fff;
+            padding: 15px;
+            border: 5px solid #00fadf;
+            border-radius: 10px;
+            color: #fff;
+            margin-bottom: 20px;
+
+        }
+
+        .tp-banner {
+            position: relative;
+        }
+
+        .tp-banner-image {
+            height: 280px;
+
+        }
+
+        .tp-banner-image img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .tp-banner-text h2 {
+            font-size: 30px;
+            max-width: 800px;
+            margin: 10px auto;
+            color: #fff;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .tp-banner-text-group {
+            text-align: center;
+        }
+
+        /* TP Banner Section CSS End */
+
+        .tp-box-1 {
+            display: inline-flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
+
+        .tp-logo-box,
+        .tp-welcome-bonus-box {
+            width: 48%;
+        }
+
+        .tp-bottom-text-section {
+            padding: 0 0 40px 0;
+        }
+
+        .tp-logo-box {
+            max-width: 160px;
+            height: auto;
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .tp-logo-box a img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .tp-welcome-bonus-box {
+            padding: 0;
+            border: 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .tp-welcome-bonus-box p {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .tp-welcome-bonus-box a {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .tp-box-2 {
+            display: inline-flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .rating-vote-box {
+            width: 60%;
+        }
+
+        .tp-card-btn {
+            width: 40%;
+        }
+
+        .tp-card-btn a h4 {
+            text-align: center;
+            background: linear-gradient(93.12deg, #00fadf 5.88%, #86ffac 94.33%);
+            width: 85%;
+            margin: 0 auto;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .rating-vote-box {
+            display: inline-flex;
+        }
+
+        .tp-welcome-bonus-box p {
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: 10px;
+            line-height: 27px;
+            color: #000000;
+        }
+
+        .rating-box .fa {
+            font-size: 12px;
+            color: #ffdd21;
+        }
+
+        .rating-box p {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: normal;
+            color: #000;
+        }
+
+        .tp-bold-text {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: normal;
+        }
+
+        .tp-card-btn a h4 {
+            font-size: 14px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .tp-welcome-bonus-box a h4 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        .vote-box p {
+            font-size: 13px;
+            max-width: 60px;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .vote-box {
+            width: 50%;
+            margin-left: 10px;
+
+        }
+
+        .tp-bold-text {
+            font-weight: 700;
+            font-size: 19px;
+            line-height: normal;
+        }
+
+        .rating-box {
+            width: 50%;
+        }
+
+        .tp-card-btn a {
+            width: 100%;
+        }
+
+        .encrypted p {
+            color: #fff;
+        }
+
+        .tp-bottom-text-wrapper p {
+            margin-bottom: 11px;
+            font-size: 16px;
+        }
+
+        .vega-bg {
+            background-color: #1b75aa;
+        }
+
+        .vega-bg {
+            background-color: #1b75aa;
+
+        }
+
+        .black-bg {
+            background-color: #000;
+        }
+
+        .cashed {
+            background-color: #09332d;
+        }
+
+        .libra {
+            background-color: #091d35;
+        }
+
+        .zoomed {
+            transform: scale(1.2);
+        }
+
+        .white-bg {
+            background-color: #fff;
+        }
+
+        section.mobile-show {
+            display: none;
+            margin-top: 30px;
+        }
+
+        /* TP CSS End */
+
+
+
+
+
+
+
+
+        @media (max-width:575px) {
+            .wrapper.show {
+                display: none;
+            }
+
+
+            .desktop-version {
+                display: none;
+            }
+
+            .mobile-hide {
+                display: none;
+            }
+
+            section.mobile-show {
+                display: block;
+            }
+
+            .tp-welcome-bonus-box a h4 {
+                font-size: 14px;
+            }
+
+            .vote-box p {
+                font-size: 14px;
+            }
+
+            .tp-welcome-bonus-box p {
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .tp-card-btn a h4 {
+                font-size: 14px;
+                padding-left: 5px;
+                padding-right: 5px;
+                font-weight: 500;
+            }
+
+            .tp-bold-text {
+                font-weight: 700;
+                font-size: 12px;
+                line-height: normal;
+            }
+
+            .rating-box p span {
+                display: block;
+                margin-top: 5px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width:450px) {
+            .tp-welcome-bonus-box p {
+                font-size: 19px;
+                font-weight: 600;
+            }
+
+            .tp-card-btn a h4 {
+                font-size: 15px;
+            }
+
+            .rating-box p {
+                font-size: 11px;
+                font-weight: 700;
+            }
+
+        }
+
+        @media (max-width:375px) {
+            .tp-card-btn a h4 {
+                font-size: 12px;
+            }
+
+            .tp-welcome-bonus-box p {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .rating-box .fa {
+                font-size: 10px;
+            }
+
+            .tp-welcome-bonus-box a h4 {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="desktop-menu">
+                <div class="logo">
+                    <a href="./">
+                        <img src="./assets/images/logo.svg" alt="logo"></a>
+                </div>
+                <div class="main-navbar">
+                    <ul>
+                        <li><a class="active" href="./">Homepage</a></li>
+                        <li><a href="how-to-play">How to Play</a></li>
+                        <li><a href="about-us">About Us</a></li>
+                        <li><a class="desktop-hide contact-us-btn butn" href="contact-us">Contact Us</a></li>
+                    </ul>
+                    <div class="close-icon"><i class="fa-solid fa-x"></i></div>
+                </div>
+                <div class="how-play">
+                    <ul>
+                        <li><a class="mobile-hide contact-us-btn butn" href="contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header End -->
+
+    <div class="desktop-version">
+        <!--Home Page Banner Section  Start -->
+        <section class="banner">
+            <div class="banner-image">
+                <img src="./assets/images/home-banner-image.png" alt="image">
+            </div>
+            <div class="banner-text text-center">
+                <div class="banner-text-group">
+                    <h1>Fantasy Football</h1>
+                    <h3>Build your ultimate football team, compete with friends, and dominate the fantasy league – where your choices make all the difference!</h3>
+                </div>
+            </div>
+        </section>
+        <!-- Home Page Banner Section  End-->
+
+        <!-- Home Page Intro Section Start -->
+        <div class="pages-intro-text-section py-5">
+            <div class="container">
+                <div class="pages-intro-text-wrapper text-center">
+                    <p>
+                        Create your dream football team, compete against friends, and test your skills against other fans. Choose players from the top leagues and see how your picks perform in real matches. Ready to show off your fantasy football skills? Get started and build your team now!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Home Page Intro  Section End-->
+
+        <!-- Home Page Blog Cards Section Start -->
+        <section class="home-page-blog-cards-section py-5">
+            <div class="container">
+                <div class="home-page-blog-cards-wrapper">
+                    <h2 class="section-heading pb-5">Blog Posts</h2>
+                    <div class="home-blog-cards">
+                        <div class="home-page-blog-image">
+                            <img src="./assets/images/blog1-banner-image.jpg" alt="blog-image">
+                        </div>
+                        <div class="home-page-blog-text">
+                            <h3>Martin Ødegaard Leads Arsenal’s Charge in the Premier League</h3>
+                            <p>
+                                In an outstanding performance, Martin Ødegaard was central to Arsenal’s recent 2-1 victory over Manchester ...
+                            </p>
+                            <a href="blog1" class="butn blog-btn">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="home-blog-cards">
+                        <div class="home-page-blog-image">
+                            <img src="./assets/images/blog2-banner-image.jpg" alt="blog-image">
+                        </div>
+                        <div class="home-page-blog-text">
+                            <h3>Erling Haaland’s Remarkable Form Continues with Another Goal Streak</h3>
+                            <p>Erling Haaland is on fire, with his recent performances reinforcing his status as one of the best ...</p>
+                            <a href="blog2" class=" blog-btn butn ">Read more</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Page Blog Cards Section End -->
+
+        <!-- Why Choose Us Section Start -->
+        <section class="why-choose-us-section py-5">
+            <div class="container">
+                <div class="why-choose-us-cards-wrapper">
+                    <h2 class="section-heading pb-5">Why choose Norway's newest Fantasy Football platform?</h2>
+
+                    <div class="why-choose-us-cards">
+                        <h3>For true fans</h3>
+                        <p>Created by football lovers who understand the game. Set up your team easily and dive into the action.</p>
+                    </div>
+
+                    <div class="why-choose-us-cards">
+                        <h3>Simple and enjoyable</h3>
+                        <p>A user-friendly platform that's fun to use, so you can focus on your strategy and enjoy the game.</p>
+                    </div>
+
+                    <div class="why-choose-us-cards">
+                        <h3>Up-to-date info</h3>
+                        <p>
+                            Get live updates on player stats and match results to stay ahead.
+                        </p>
+                    </div>
+
+                    <div class="why-choose-us-cards">
+                        <h3>Competitive edge</h3>
+                        <p>
+                            Challenge your friends or join new leagues. There’s something for everyone, whether you’re just starting or have played for years.
+                        </p>
+                    </div>
+
+                    <div class="why-choose-us-cards">
+                        <h3>Unique tools</h3>
+                        <p>
+                            Use our special features to fine-tune your picks and boost your chances of winning.
+                        </p>
+                    </div>
+
+                    <div class="why-choose-us-cards">
+                        <h3>Fan community</h3>
+                        <p>
+                            Connect with other football fans, exchange tips, and get involved in a lively community.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why Choose Us Section End -->
+
+        <!-- About Us Cards Section Start -->
+        <section class="about-us-cards-section pb-5">
+            <div class="container">
+                <div class="about-us-cards-wrapper">
+
+                    <div class="about-us-cards">
+                        <div class="about-cards-icon">
+                            <img src="./assets/images/user.png" alt="cards-image">
+                        </div>
+                        <h3>Over 230,000 Users</h3>
+                    </div>
+
+                    <div class="about-us-cards">
+                        <div class="about-cards-icon">
+                            <img src="./assets/images/review.png" alt="cards-image">
+                        </div>
+                        <h3>40,000+ Reviews</h3>
+                    </div>
+
+                    <div class="about-us-cards">
+                        <div class="about-cards-icon">
+                            <img src="./assets/images/entry.png" alt="cards-image">
+                        </div>
+                        <h3>2000+ Weekly Signups</h3>
+                    </div>
+
+                    <div class="about-us-cards">
+                        <div class="about-cards-icon">
+                            <img src="./assets/images/live.png" alt="cards-image">
+                        </div>
+                        <h3>Live Updates</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Cards Section End-->
+
+        <!--Home Page Newsletter Section Start -->
+        <section class="pages-newsletter-section py-5">
+            <div class="container">
+                <div class="pages-newsletter-wrapper">
+                    <h3 class="text-center">Sign up for our newsletter for everything related to fantasy football</h3>
+                    <div class="pages-newsletter-input-wrapper">
+                        <input type="text" class="pages-newsletter-input" placeholder="Enter your email">
+                        <a class=" butn pages-newsletter-submit-button" href="">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home Pages Newsletter Section End -->
+
+        <!--PageS FAQ Section Start -->
+        <section class="pages-faq-section py-5">
+            <div class="container">
+                <div class="pages-accordion-wrapper">
+                    <h2 class="section-heading pb-5 text-center">Frequently Asked Questions</h2>
+
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>What is Fantasy Football?</span>
+                                <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    Fantasy Football lets you create a team of real players and score points based on their performances in actual matches.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>How does scoring work?</span>
+                                <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    Points are earned through player achievements like goals, assists, and clean sheets. Each league may have its own scoring system.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>Can I make changes to my team?</span>
+                                <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    Yes, you can make transfers and adjust your lineup throughout the season.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>How do I join or create a league?</span>
+                                <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    You can join existing leagues or start your own with friends or other players.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>What if my players are injured or suspended?</span>
+                                <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    You can replace injured or suspended players through transfers.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>How do I track my performance?</span>
+                                <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    Your performance is tracked through points and rankings, updated based on player and team statistics.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pages FAQ Section End-->
+
+        <!--Pages Disclaimer Section Start -->
+        <section class="disclaimer py-5">
+            <div class="container">
+                <div class="disclaimer-wrapper  text-center">
+                    <h3 class="pb-4">Fantasy Sports Disclaimer
+                    </h3>
+                    <p>
+                        Participation in fantasy sports is for entertainment purposes only. All users must ensure they comply with local, state, and federal laws regarding the legality of participating in fantasy sports contests for prizes. The availability of fantasy sports contests or prize opportunities may vary depending on your jurisdiction.
+                    </p>
+                    <p>
+                        We make no representations or warranties regarding the legality of your participation in fantasy sports or your ability to win any prizes. By participating, you agree that you are solely responsible for ensuring you comply with applicable laws.
+                    </p>
+                    <p>
+                        Fantasy sports contests offered on this platform may involve elements of skill and chance. Past results do not guarantee future outcomes, and no guarantees are made regarding the accuracy of the information provided or your chances of success.
+                    </p>
+                    <p>
+                        If you or someone you know has a gambling problem, please seek help through appropriate resources.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--Pages Disclaimer Section End -->
+
+    </div>
+
+    <!-- Betting-Start -->
+    <section class="mobile-show">
+
+        <!-- TP Banner Section Start -->
+        <section class="tp-banner">
+            <!-- <div class="tp-banner-image">
+                <img src="assets/images/tp-banner-image.jpg" alt="image">
+            </div> -->
+            <div class="tp-banner-text">
+                <div class="tp-banner-text-group">
+                    <h2>
+                        Betting Sites Norway
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <!-- TP Banner Section End -->
+
+        <!-- TP Cards Section Start -->
+        <section class="tp-cards-section">
+            <div class="container">
+                <div class="tp-cards-wrapper">
+
+                    <!-- Cashed    -->
+                    <div class="tp-cards">
+                        <div class="tp-box-1">
+                            <div class="tp-logo-box">
+                                <a href="https://cshd.servclick1move.com/?mid=146137_1412048"><img
+                                        src="./assets/images/cashed-logo11.png" alt=""></a>
+                            </div>
+                            <div class="tp-welcome-bonus-box">
+                                <a href="https://cshd.servclick1move.com/?mid=146137_1412048">
+                                    <p>Welcome Bonus</p>
+                                    <h4>100% Up to 2000kr</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tp-box-2">
+                            <div class="rating-vote-box">
+                                <div class="rating-box">
+                                    <p>Ratings <span class="tp-bold-text">9.9</span></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="vote-box">
+                                    <p><span class="tp-bold-text">Votes</span> (795) </p>
+                                </div>
+                            </div>
+                            <div class="tp-card-btn">
+                                <a href="https://cshd.servclick1move.com/?mid=146137_1412048">
+                                    <h4>Register</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cashed  -->
+
+                    <!-- Librabet    -->
+                    <div class="tp-cards">
+                        <div class="tp-box-1">
+                            <div class="tp-logo-box">
+                                <a href="https://lrb.servclick1move.com/?mid=70545_1412079"><img
+                                        src="./assets/images/Libra_bet.png" alt=""></a>
+                            </div>
+                            <div class="tp-welcome-bonus-box">
+                                <a href="https://lrb.servclick1move.com/?mid=70545_1412079">
+                                    <p>Welcome Bonus</p>
+                                    <h4>100% Up to 2100kr</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tp-box-2">
+                            <div class="rating-vote-box">
+                                <div class="rating-box">
+                                    <p>Ratings <span class="tp-bold-text">9.9</span></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="vote-box">
+                                    <p><span class="tp-bold-text">Votes</span> (795) </p>
+                                </div>
+                            </div>
+                            <div class="tp-card-btn">
+                                <a href="https://lrb.servclick1move.com/?mid=70545_1412079">
+                                    <h4>Register</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Librabet  -->
+
+                    <!-- Legiano    -->
+                    <div class="tp-cards">
+                        <div class="tp-box-1">
+                            <div class="tp-logo-box">
+                                <a href="https://lgno.servclick1move.com/?mid=110209_1412058"><img
+                                        src="./assets/images/leigiano11.png" alt=""></a>
+                            </div>
+                            <div class="tp-welcome-bonus-box">
+                                <a href="https://lgno.servclick1move.com/?mid=110209_1412058">
+                                    <p>Welcome Bonus</p>
+                                    <h4>100% Up to 2000kr</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tp-box-2">
+                            <div class="rating-vote-box">
+                                <div class="rating-box">
+                                    <p>Ratings <span class="tp-bold-text">9.8</span></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="vote-box">
+                                    <p><span class="tp-bold-text">Votes</span> (795) </p>
+                                </div>
+                            </div>
+                            <div class="tp-card-btn">
+                                <a href="https://lgno.servclick1move.com/?mid=110209_1412058">
+                                    <h4>Register</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Legiano  -->
+
+                    <!-- TonyBet    -->
+                    <div class="tp-cards">
+                        <div class="tp-box-1">
+                            <div class="tp-logo-box">
+                                <a
+                                    href="https://media.affiliatestonybet.com/redirect.aspx?pid=169163&bid=2018&lpid=1478"><img
+                                        src="./assets/images/tonybet.png" alt=""></a>
+                            </div>
+                            <div class="tp-welcome-bonus-box">
+                                <a
+                                    href="https://media.affiliatestonybet.com/redirect.aspx?pid=169163&bid=2018&lpid=1478">
+                                    <p>Welcome Bonus</p>
+                                    <h4>100€ Bonus </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tp-box-2">
+                            <div class="rating-vote-box">
+                                <div class="rating-box">
+                                    <p>Ratings <span class="tp-bold-text">9.8</span></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="vote-box">
+                                    <p><span class="tp-bold-text">Votes</span> (795) </p>
+                                </div>
+                            </div>
+                            <div class="tp-card-btn">
+                                <a
+                                    href="https://media.affiliatestonybet.com/redirect.aspx?pid=169163&bid=2018&lpid=1478">
+                                    <h4>Register</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TonyBet  -->
+
+                    <!-- Ivibet    -->
+                    <div class="tp-cards">
+                        <div class="tp-box-1">
+                            <div class="tp-logo-box">
+                                <a
+                                    href="https://top.aglobally.com/redirect.aspx?pid=38444&bid=1478&redirectURL=https://ivimedia.world/"><img
+                                        src="./assets/images/ivibet-logo.png" alt=""></a>
+                            </div>
+                            <div class="tp-welcome-bonus-box">
+                                <a
+                                    href="https://top.aglobally.com/redirect.aspx?pid=38444&bid=1478&redirectURL=https://ivimedia.world/">
+                                    <p>Welcome Bonus</p>
+                                    <h4>Get Free Bets up to 1,500 NOK </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tp-box-2">
+                            <div class="rating-vote-box">
+                                <div class="rating-box">
+                                    <p>Ratings <span class="tp-bold-text">9.7</span></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="vote-box">
+                                    <p><span class="tp-bold-text">Votes</span> (795) </p>
+                                </div>
+                            </div>
+                            <div class="tp-card-btn">
+                                <a
+                                    href="https://top.aglobally.com/redirect.aspx?pid=38444&bid=1478&redirectURL=https://ivimedia.world/">
+                                    <h4>Register</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ivibet  -->
+
+                    <!-- 20bet    -->
+                    <div class="tp-cards">
+                        <div class="tp-box-1">
+                            <div class="tp-logo-box">
+                                <a href="https://media.toxtren.com/redirect.aspx?pid=180982&bid=1971&lpid=531"><img
+                                        src="./assets/images/20bet_img.png" alt=""></a>
+                            </div>
+                            <div class="tp-welcome-bonus-box">
+                                <a href="https://media.toxtren.com/redirect.aspx?pid=180982&bid=1971&lpid=531">
+                                    <p>Welcome Bonus</p>
+                                    <h4>Get Free Bets up to 1,000 NOK </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tp-box-2">
+                            <div class="rating-vote-box">
+                                <div class="rating-box">
+                                    <p>Ratings <span class="tp-bold-text">9.7</span></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="vote-box">
+                                    <p><span class="tp-bold-text">Votes</span> (795) </p>
+                                </div>
+                            </div>
+                            <div class="tp-card-btn">
+                                <a href="https://media.toxtren.com/redirect.aspx?pid=180982&bid=1971&lpid=531">
+                                    <h4>Register</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 20bet  -->
+
+                    <!-- Vegasino    -->
+                    <div class="tp-cards">
+                        <div class="tp-box-1">
+                            <div class="tp-logo-box">
+                                <a href="https://vgso.servclick1move.com/?mid=179565_1412039"><img
+                                        src="./assets/images/vegasino-logo.jfif" alt=""></a>
+                            </div>
+                            <div class="tp-welcome-bonus-box">
+                                <a href="https://vgso.servclick1move.com/?mid=179565_1412039">
+                                    <p>Welcome Bonus</p>
+                                    <h4>100% Up to 2000kr </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tp-box-2">
+                            <div class="rating-vote-box">
+                                <div class="rating-box">
+                                    <p>Ratings <span class="tp-bold-text">9.6</span></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="vote-box">
+                                    <p><span class="tp-bold-text">Votes</span> (795) </p>
+                                </div>
+                            </div>
+                            <div class="tp-card-btn">
+                                <a href="https://vgso.servclick1move.com/?mid=179565_1412039">
+                                    <h4>Register</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Vegasino  -->
+
+                </div>
+            </div>
+        </section>
+        <!-- TP Cards Section End-->
+
+        <!-- TP Bottom Text Section Start -->
+        <div class="tp-bottom-text-section">
+            <div class="container">
+                <div class="tp-bottom-text-wrapper">
+                    <p>Find the best betting sites in Norway. We compare all the top bookies for bonuses and odds. Register today to get an exclusive bonus and start betting on all major events.</p>
+                </div>
+            </div>
+        </div>
+        <!-- TP Bottom Text Section Start -->
+    </section>
+
+    <!-- Betting-End -->
+
+    <!-- Footer Start -->
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="footer-wrapper">
+
+                <div class="logo-bottom footer-items">
+                    <div class="lg-btm"><a href="./"> <img src="./assets/images/logo.svg" alt="logo"></a>
+                    </div>
+                </div>
+
+                <div class="footer-connect footer-items">
+                    <h3>Social Tags</h3>
+                    <div class="social-icons">
+                        <div>
+                            <div class="footer-social-icons">
+                                <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-links footer-items">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="./">Homepage</a></li>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="personal-information">Personal Information Policy</a></li>
+                        <li><a href="return-refund">Return and Refund Policy</a></li>
+                        <li><a href="terms-conditions">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ssl-certificate text-center py-3">
+                <img src="./assets/images/ssl.png" alt="ssl-logo">
+            </div>
+            <div class="copyright py-4">
+                <p>Copyright &copy; 2025 ClutchZone.org All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Cookies Start -->
+    <div class="wrapper">
+        <div class="info">
+            <h4>Cookie Consent</h4>
+            <p>
+                We use cookies to enhance your browsing experience, show personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to the storage of cookies on your device. You can also adjust your settings or decline non-essential cookies by clicking on "Cookie Settings".
+            </p>
+        </div>
+        <div class="buttons">
+            <button class="button" id="acceptBtn">Cookie Settings</button>
+            <button class="button">Accept All</button>
+        </div>
+    </div>
+    <!-- Cookies End-->
+
+
+
+
+    <script src="assets/js/aos.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

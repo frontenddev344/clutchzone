@@ -1,0 +1,972 @@
+@media screen and (max-width:1200px) {
+  .banner-text h1 {
+    font-size: 60px;
+  }
+
+  .banner-image {
+    height: 540px;
+  }
+
+  .banner-text h3 {
+    font-size: 23px;
+    max-width: 860px;
+  }
+
+  .about-us-cards h3 {
+    font-size: 19px;
+  }
+
+  .about-cards-icon img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .about-us-cards {
+    min-height: 195px;
+  }
+
+  .footer-items h3 {
+    font-size: 27px;
+  }
+
+  .contact-us-group a img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .fake-chat {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+  .button {
+    width: calc(60% / 2 - 10px);
+    font-size: 13px;
+    padding: 15px 5px;
+}
+}
+
+@media screen and (max-width:991px) {
+  .main-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+    background-color: #000;
+    transform: translateX(-100%);
+    transition: all 0.3s linear;
+    z-index: 100;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .menuToggle .main-navbar {
+    transform: translateX(0);
+    justify-content: flex-start;
+  }
+
+  .main-navbar ul {
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    color: #fff;
+    text-align: end;
+    z-index: 55;
+  }
+
+  a.mobile-hide {
+    display: none;
+  }
+
+  a.desktop-hide {
+    display: block !important;
+    background: none;
+  }
+
+
+  .logo img {
+    max-width: 180px;
+  }
+
+  .banner-text h1 {
+    font-size: 55px;
+  }
+
+  .banner-text h3 {
+    font-size: 23px;
+    max-width: 710px;
+  }
+
+  .banner-image {
+    height: 480px;
+  }
+
+  .pages-intro-text-wrapper p {
+    font-size: 15px;
+  }
+
+  .home-page-blog-text p {
+    font-size: 15px;
+  }
+
+  h2.section-heading {
+    font-size: 34px;
+  }
+
+  .why-choose-us-cards p {
+    font-size: 15px;
+  }
+
+  .about-us-cards h3 {
+    font-size: 22px;
+  }
+
+  .about-us-cards {
+    width: 47%;
+    margin-bottom: 35px;
+    min-height: 180px;
+  }
+
+  .footer-items h3 {
+    font-size: 25px;
+  }
+
+  .accordion-content p {
+    font-size: 15px;
+  }
+
+  .disclaimer-wrapper h3 {
+    font-size: 28px;
+  }
+
+  .disclaimer-wrapper p {
+    font-size: 15px;
+  }
+
+  .pages-newsletter-wrapper h3 {
+    max-width: 655px;
+  }
+
+  input.pages-newsletter-input {
+    width: 45%;
+    padding: 12px 25px;
+  }
+
+  .pages-newsletter-submit-button {
+    padding: 12px 25px;
+  }
+
+  /* Pages CSS Start */
+  .banner-image {
+    height: 360px;
+  }
+
+  .pages-banner-text h1 {
+    font-size: 35px;
+  }
+
+  .pages-cards-image {
+    height: 330px;
+  }
+
+  .pages-icons img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pages-cards-content h3 {
+    font-size: 24px;
+  }
+
+  .pages-cards-content p {
+    font-size: 15px;
+  }
+
+  .down-arrow img {
+    height: 60px;
+    width: 60px;
+  }
+
+  /* Pages CSS End  */
+
+  /* Other Pages CSS Start */
+  .privacy-policy-group h3,
+  .terms-conditions-group h3,.personal-information-group h3 ,.return-refund-group h3{
+    font-size: 26px;
+  }
+
+  .privacy-policy-group p,
+  .terms-conditions-group p,.personal-information-group p,.return-refund-group p {
+    font-size: 15px;
+  }
+  .about-us-content{
+    font-size: 15px;
+  }
+  .about-us-image {
+    height: 310px;
+}
+
+  /* Other Pages CSS End */
+
+  /* Contact Us Page CSS Start */
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact select {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #contact textarea {
+    height: 90px;
+  }
+
+  .contact-us-group a img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .fake-chat {
+    padding: 9px 25px;
+    font-size: 15px;
+  }
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select {
+  padding: 10px;
+  font-size: 15px;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
+  width: 100%;
+}
+#contact button[type="submit"] {
+  width: 40%;
+  padding: 13px 20px;
+}
+  /* Contact Us Page CSS Start */
+
+
+
+
+  /* Cookies CSS Start */
+  .info p {
+    font-size: 14px;
+  }
+
+  .button {
+    width: calc(85% / 2 - 10px);
+    font-size: 14px;
+  }
+
+  /* Cookies CSS End */
+}
+
+
+
+
+@media screen and (max-width:767px) {
+  
+  .banner-image {
+    height: 430px;
+  }
+
+  .banner-text h1 {
+    font-size: 50px;
+  }
+
+  .banner-text h3 {
+    font-size: 20px;
+    padding: 0 10px;
+    max-width: 450px;
+  }
+
+  .home-page-blog-text h3 {
+    font-size: 19px;
+  }
+
+  .home-page-blog-image {
+    width: 100%;
+    height: 290px;
+  }
+
+  .home-page-blog-text {
+    width: 100%;
+    padding: 15px 5px;
+  }
+
+  .home-page-blog-text h3 {
+    font-size: 20px;
+  }
+
+  h2.section-heading {
+    font-size: 30px;
+  }
+
+  .about-us-cards h3 {
+    font-size: 20px;
+  }
+
+  .about-us-cards {
+    width: 47%;
+    margin-bottom: 35px;
+    min-height: 180px;
+  }
+
+  .disclaimer-wrapper h3 {
+    font-size: 25px;
+  }
+
+  .footer-items h3 {
+    text-align: left;
+  }
+
+  .footer-items h3 {
+    font-size: 20px;
+  }
+
+  .accordion-header {
+    font-size: 16px;
+  }
+
+  .pages-newsletter-wrapper h3 {
+    max-width: 510px;
+  }
+
+  input.pages-newsletter-input {
+    width: 45%;
+    font-size: 15px;
+    padding: 11px 25px;
+  }
+
+  .pages-newsletter-submit-button {
+    padding: 11px 25px;
+    font-size: 15px;
+  }
+
+  /* Pages CSS Start */
+  .banner-image {
+    height: 320px;
+  }
+
+  .pages-banner-text h1 {
+    font-size: 29px;
+  }
+
+  .pages-cards-image {
+    width: 100%;
+    height: 270px;
+  }
+
+  .pages-cards-content {
+    width: 100%;
+  }
+
+  .pages-icons img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pages-cards-content p {
+    font-size: 14px;
+  }
+
+  .down-arrow img {
+    height: 60px;
+    width: 60px;
+  }
+
+  /* Pages CSS End  */
+  /* Other Pages CSS Start */
+  .privacy-policy-group h3,
+  .terms-conditions-group h3,.personal-information-group h3,.return-refund-group h3 {
+    font-size: 25px;
+  }
+  .about-us-image,  .about-us-content{
+    width: 100%;
+}
+.about-us-content {
+  padding: 10px;
+}
+.about-us-image {
+  height: 280px;
+}
+
+  /* Other Pages CSS End */
+  
+  /* Contact Us Page CSS Start */
+  .form-image,
+  .form-container {
+    width: 100%;
+  }
+
+  .contact-us-group ul li a,
+  .contact-us-group p a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact select {
+    padding: 12px;
+    font-size: 14px;
+  }
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select, #contact button[type="submit"] {
+    width: 100%;
+}
+
+  #contact button[type="submit"] {
+    width: 30%;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .contact-us-group a img {
+    height: 22px;
+    width: 22px;
+  }
+
+  .fake-chat {
+    padding: 9px 25px;
+    font-size: 14px;
+  }
+
+
+  /* Contact Us Page CSS Start */
+
+
+
+  /* Cookies CSS Start */
+  .wrapper {
+    padding: 20px 10px;
+  }
+
+  .info p {
+    font-size: 13px;
+  }
+
+   .button {
+    width: calc(100% / 2 - 10px);
+    font-size: 13px;
+    padding: 15px 5px;
+}
+
+  /* Cookies CSS End */
+}
+
+
+
+@media screen and (max-width:575px) {
+  .logo img {
+    max-width: 150px;
+  }
+
+  .banner-image {
+    height: 380px;
+  }
+
+  .banner-text h1 {
+    font-size: 45px;
+  }
+
+  .banner-text h3 {
+    font-size: 20px;
+    padding: 0 10px;
+    max-width: 470px;
+  }
+
+  .pages-intro-text-wrapper p {
+    font-size: 14px;
+  }
+
+  .home-page-blog-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .home-page-blog-text {
+    width: 100%;
+    padding: 15px 5px;
+  }
+
+  .home-page-blog-text h3 {
+    font-size: 18px;
+  }
+
+  .home-page-blog-text p {
+    font-size: 14px;
+  }
+
+  h2.section-heading {
+    font-size: 26px;
+  }
+
+  .why-choose-us-cards p {
+    font-size: 14px;
+  }
+
+  .about-us-cards h3 {
+    font-size: 16px;
+  }
+
+  .about-us-cards {
+    width: 47%;
+    margin-bottom: 35px;
+  }
+
+  .about-cards-icon img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .disclaimer-wrapper h3 {
+    font-size: 22px;
+  }
+
+  .disclaimer-wrapper {
+    padding: 0px 5px;
+  }
+
+  .disclaimer-wrapper p {
+    font-size: 14px;
+  }
+
+  .footer-items {
+    width: 50%;
+  }
+
+  .footer .footer-items ul li a {
+    font-size: 16px;
+  }
+
+  .footer-items h3 {
+    font-size: 24px;
+  }
+
+  .logo-bottom {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .lg-btm a img {
+
+    max-width: 150px;
+  }
+
+  .social-icons {
+    justify-content: flex-start;
+  }
+
+  .pages-newsletter-wrapper h3 {
+    font-size: 23px;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  input.pages-newsletter-input {
+    width: 80%;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 0px;
+  }
+
+  .pages-newsletter-submit-button {
+    padding: 10px 40px;
+    font-size: 14px;
+    border-radius: 0px;
+    margin-top: 10px;
+  }
+
+  button.accordion-header span:first-child {
+    max-width: 400px;
+  }
+
+  .accordion-header {
+    font-size: 15px;
+  }
+
+  .accordion-content p {
+    font-size: 14px;
+  }
+
+  .pages-cards-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .pages-cards-content {
+    width: 100%;
+  }
+
+  /* Pages CSS Start */
+  .banner-image {
+    height: 280px;
+  }
+
+  .pages-banner-text h1 {
+    font-size: 27px;
+  }
+
+  .pages-cards-image {
+    width: 100%;
+    height: 230px;
+  }
+
+  .pages-cards-content {
+    width: 100%;
+  }
+
+  .pages-icons img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pages-cards {
+    padding: 15px;
+  }
+
+  .pages-cards-content h3 {
+    font-size: 22px;
+  }
+
+  .pages-cards-content p {
+    font-size: 14px;
+  }
+
+  .down-arrow img {
+    height: 60px;
+    width: 60px;
+  }
+
+  /* Pages CSS End  */
+  /* Other Pages CSS Start */
+  .privacy-policy-group h3,
+  .terms-conditions-group h3,.personal-information-group h3,.return-refund-group h3 {
+    font-size: 23px;
+  }
+
+  .privacy-policy-group p,
+  .terms-conditions-group p ,.personal-information-group p,.return-refund-group p{
+    font-size: 14px;
+  }
+  .about-us-content{
+    font-size: 14px;
+  }
+  .about-us-image {
+    height: 240px;
+}
+
+  /* Other Pages CSS End */
+  /* Contact Us Page CSS Start */
+  .contact-us-group h3 {
+    font-size: 40px;
+  }
+
+  .contact-us-group p,
+  .contact-us-group ul li {
+    font-size: 14px;
+  }
+
+  .contact-us-group ul li a,
+  .contact-us-group p a {
+    font-size: 15px;
+  }
+
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select {
+    padding: 12px;
+    font-size: 13px;
+}
+
+  #contact button[type="submit"] {
+    width: 35%;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #contact {
+    padding: 0;
+}
+
+  .contact-us-group a img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .fake-chat {
+    padding: 8px 25px;
+    font-size: 14px;
+  }
+
+  /* Contact Us Page CSS End */
+
+
+  /* Cookies CSS Start */
+  .info p {
+    font-size: 13px;
+  }
+
+  .button {
+    width: calc(100% / 2 - 10px);
+    font-size: 13px;
+    padding: 15px 5px;
+}
+.buttons .button:nth-child(2) {
+  padding: 22px;
+}
+  /* Cookies CSS End */
+}
+
+@media screen and (max-width:480px) {
+
+  .menu-icon {
+    font-size: 22px;
+  }
+
+  .banner-image {
+    height: 320px;
+  }
+
+  .banner-text h1 {
+    font-size: 35px;
+  }
+
+  .banner-text h3 {
+    font-size: 16px;
+    padding: 0 10px;
+    max-width: 400px;
+  }
+
+  .home-page-blog-image {
+    height: 200px;
+  }
+
+  .home-page-blog-text h3 {
+    font-size: 17px;
+  }
+
+  .butn {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  h2.section-heading {
+    font-size: 22px;
+  }
+
+  .why-choose-us-cards h3 {
+    font-size: 20px;
+  }
+
+  .about-us-cards {
+    width: 100%;
+  }
+
+  .about-us-cards h3 {
+    font-size: 16px;
+  }
+
+  .disclaimer-wrapper h3 {
+    font-size: 20px;
+  }
+
+  .footer-items {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-items:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer-items h3 {
+    text-align: center;
+  }
+
+  .copyright p {
+    font-size: 13px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer .footer-items ul li a {
+    font-size: 15px;
+  }
+
+  .pages-newsletter-wrapper {
+    padding: 10px 0;
+  }
+
+  .pages-newsletter-wrapper h3 {
+    font-size: 17px;
+    padding: 0;
+  }
+
+  input.pages-newsletter-input {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .pages-newsletter-submit-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .accordion-header {
+    padding: 13px 10px;
+    font-size: 13px;
+  }
+
+  button.accordion-header span:first-child {
+    max-width: 220px;
+  }
+
+  /* Pages CSS Start */
+  .banner-image {
+    height: 250px;
+  }
+
+  .pages-banner-text h1 {
+    font-size: 25px;
+  }
+
+  .pages-cards-image {
+    width: 100%;
+    height: 180px;
+  }
+
+  .pages-cards-content {
+    width: 100%;
+  }
+
+  .pages-icons img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .pages-cards {
+    padding: 15px;
+  }
+
+  .pages-cards-content h3 {
+    font-size: 20px;
+  }
+
+  .down-arrow img {
+    height: 50px;
+    width: 50px;
+  }
+
+  /* Pages CSS End  */
+  /* Other Pages CSS Start */
+  .privacy-policy-group h3,
+  .terms-conditions-group h3,
+  .personal-information-group h3 ,.return-refund-group h3{
+    font-size: 20px;
+  }
+
+  .privacy-policy-group h4,
+  .terms-conditions-group h4,.personal-information-group h4 ,.return-refund-group h4{
+    font-size: 17px;
+  }
+
+  .privacy-policy-group p a,
+  .terms-conditions-group p a ,.personal-information-group p a,.return-refund-group p a{
+    font-size: 14px;
+  }
+  .about-us-image {
+    height: 200px;
+}
+  /* Other Pages CSS End */
+  /* Contact Us Page CSS Start */
+  #contact {
+    padding: 0;
+  }
+
+  .form-container {
+    padding: 30px 5px;
+  }
+
+  .contact-us-group h3 {
+    font-size: 35px;
+  }
+
+  .contact-us-group p,
+  .contact-us-group ul li {
+    font-size: 13px;
+  }
+
+  .contact-us-group ul li a,
+  .contact-us-group p a {
+    font-size: 14px;
+  }
+
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact select {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  #contact button[type="submit"] {
+    width: 40%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .contact-us-group a img {
+    height: 17px;
+    width: 17px;
+  }
+
+  .fake-chat {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  /* Contact Us Page CSS End */
+
+
+
+  /* Cookies CSS Start */
+  .info p {
+    font-size: 12px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .button {
+    width: calc(100% / 2 - 10px);
+    font-size: 13px;
+  }
+  .buttons .button:nth-child(2) {
+    padding: 22px;
+}
+
+  /* Cookies CSS End */
+}
